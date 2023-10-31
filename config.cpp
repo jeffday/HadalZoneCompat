@@ -278,53 +278,53 @@ class cfgWeapons
 	// 		"Mag_AK74_45Rnd"
 	// 	};
 	// };
-	// class TWM_HK416_Base: M4A1_Base
-	// {
-	// 	magazines[]=
-	// 	{
-	// 		"Mag_STANAG_30Rnd",
-	// 		"Mag_STANAGCoupled_30Rnd",
-	// 		"Mag_STANAG_60Rnd",
-	// 		"Mag_CMAG_10Rnd",
-	// 		"Mag_CMAG_20Rnd",
-	// 		"Mag_CMAG_30Rnd",
-	// 		"Mag_CMAG_40Rnd",
-	// 		"Mag_CMAG_10Rnd_Green",
-	// 		"Mag_CMAG_20Rnd_Green",
-	// 		"Mag_CMAG_30Rnd_Green",
-	// 		"Mag_CMAG_40Rnd_Green",
-	// 		"Mag_CMAG_10Rnd_Black",
-	// 		"Mag_CMAG_20Rnd_Black",
-	// 		"Mag_CMAG_30Rnd_Black",
-	// 		"Mag_CMAG_40Rnd_Black",
-	// 		"Mag_ASC_Stanag_10Rnd",
-	// 		"Mag_ASC_Stanag_10Rnd_Camo",
-	// 		"Mag_ASC_Stanag_10Rnd_DigiTan",
-	// 		"Mag_ASC_Stanag_10Rnd_Tan",
-	// 		"Mag_ASC_Stanag_10Rnd_UCP",
-	// 		"Mag_ASC_Stanag_20Rnd",
-	// 		"Mag_ASC_Stanag_20Rnd_Camo",
-	// 		"Mag_ASC_Stanag_20Rnd_DigiTan",
-	// 		"Mag_ASC_Stanag_20Rnd_Tan",
-	// 		"Mag_ASC_Stanag_20Rnd_UCP",
-	// 		"Mag_ASC_Stanag_100Rnd",
-	// 		"Mag_ASC_Stanag_100Rnd_Camo",
-	// 		"Mag_ASC_Stanag_100Rnd_DigiTan",
-	// 		"Mag_ASC_Stanag_100Rnd_Tan",
-	// 		"Mag_ASC_Stanag_100Rnd_UCP",
-	// 		"Mag_ASC_PMag_60Rnd",
-	// 		"Mag_ASC_PMag_60Rnd_Camo",
-	// 		"Mag_ASC_PMag_60Rnd_DigiTan",
-	// 		"Mag_ASC_PMag_60Rnd_Tan",
-	// 		"Mag_ASC_PMag_60Rnd_UCP",
-	// 		"BO_Mag_PMAG_30Rnd",
-	// 		"BO_Mag_PMAG_Tan_30Rnd",
-	// 		"BO_Mag_PMAG_Green_30Rnd",
-	// 		"BO_Mag_PMAGWindow_30Rnd", 
-	// 		"BO_Mag_D60_60Rnd",
-	// 		"BO_Mag_GEN2_100Rnd"
-	// 	};
-	// };
+	class TWM_HK416_Base: M4A1_Base
+	{
+		magazines[]=
+		{
+			"Mag_STANAG_30Rnd",
+			"Mag_STANAGCoupled_30Rnd",
+			"Mag_STANAG_60Rnd",
+			"Mag_CMAG_10Rnd",
+			"Mag_CMAG_20Rnd",
+			"Mag_CMAG_30Rnd",
+			"Mag_CMAG_40Rnd",
+			"Mag_CMAG_10Rnd_Green",
+			"Mag_CMAG_20Rnd_Green",
+			"Mag_CMAG_30Rnd_Green",
+			"Mag_CMAG_40Rnd_Green",
+			"Mag_CMAG_10Rnd_Black",
+			"Mag_CMAG_20Rnd_Black",
+			"Mag_CMAG_30Rnd_Black",
+			"Mag_CMAG_40Rnd_Black",
+			"Mag_ASC_Stanag_10Rnd",
+			"Mag_ASC_Stanag_10Rnd_Camo",
+			"Mag_ASC_Stanag_10Rnd_DigiTan",
+			"Mag_ASC_Stanag_10Rnd_Tan",
+			"Mag_ASC_Stanag_10Rnd_UCP",
+			"Mag_ASC_Stanag_20Rnd",
+			"Mag_ASC_Stanag_20Rnd_Camo",
+			"Mag_ASC_Stanag_20Rnd_DigiTan",
+			"Mag_ASC_Stanag_20Rnd_Tan",
+			"Mag_ASC_Stanag_20Rnd_UCP",
+			"Mag_ASC_Stanag_100Rnd",
+			"Mag_ASC_Stanag_100Rnd_Camo",
+			"Mag_ASC_Stanag_100Rnd_DigiTan",
+			"Mag_ASC_Stanag_100Rnd_Tan",
+			"Mag_ASC_Stanag_100Rnd_UCP",
+			"Mag_ASC_PMag_60Rnd",
+			"Mag_ASC_PMag_60Rnd_Camo",
+			"Mag_ASC_PMag_60Rnd_DigiTan",
+			"Mag_ASC_PMag_60Rnd_Tan",
+			"Mag_ASC_PMag_60Rnd_UCP",
+			"BO_Mag_PMAG_30Rnd",
+			"BO_Mag_PMAG_Tan_30Rnd",
+			"BO_Mag_PMAG_Green_30Rnd",
+			"BO_Mag_PMAGWindow_30Rnd", 
+			"BO_Mag_D60_60Rnd",
+			"BO_Mag_GEN2_100Rnd"
+		};
+	};
 	// class FAL_Base;
 	// class TWM_G36K_Base: FAL_Base
 	// {
