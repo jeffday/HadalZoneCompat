@@ -1,7 +1,7 @@
 
 class CfgPatches
 {
-	class BO_Compatibility
+	class HadalZoneCompatibility
 	{
 		requiredVersion = 0.1;
 		requiredAddons[] = {"DZ_Data","DZ_Weapons_Firearms","DZ_Pistols","DZ_Sounds_Weapons","DZ_Weapons_Magazines","DZ_Weapons_Ammunition","DZ_Weapons_Firearms_aug","DZ_Weapons_Firearms_M4","DZ_Weapons_Firearms_M16A2","TWM_Guns","ASC_Weapons_LVOAC","ASC_Weapons_HK416","Blackout_Weapons_Snipers"};
@@ -10,15 +10,15 @@ class CfgPatches
 };
 class CfgMods
 {
-	class BO_Compatibility
+	class HadalZoneCompatibility
 	{
-		dir = "BO_Compatibility";
+		dir = "HadalZoneCompatibility";
 		picture = "";
 		action = "";
 		hideName = 1;
 		hidePicture = 1;
-		name = "BO_Compatibility";
-		author = "Blackout";
+		name = "HadalZoneCompatibility";
+		author = "angrystoma";
 		authorID = "0";
 		version = "1.0";
 		extra = 0;
@@ -35,17 +35,17 @@ class CfgMods
 			class missionScriptModule
 			{
 				value="";
-				files[]= {"BO_Compatibility\Scripts\5_Mission"};
+				files[]= {"HadalZoneCompatibility\Scripts\5_Mission"};
 			};
 			class worldScriptModule
 			{
 				value = "";
-				files[] = {"BO_Compatibility\Scripts\4_World"};
+				files[] = {"HadalZoneCompatibility\Scripts\4_World"};
 			};
 			class gameScriptModule
 			{
 				value = "";
-				files[] = {"BO_Compatibility\Scripts\3_Game"};
+				files[] = {"HadalZoneCompatibility\Scripts\3_Game"};
 			};
 		};
 	};
@@ -56,7 +56,6 @@ class Mode_Burst;
 class Mode_FullAuto;
 class cfgWeapons
 {
-	class OpticsInfoRifle;
     class Rifle_Base;
 	class M4A1_Base: Rifle_Base
 	{
@@ -103,15 +102,6 @@ class cfgWeapons
 			"BO_Mag_PMAGWindow_30Rnd", 
 			"BO_Mag_D60_60Rnd",
 			"BO_Mag_GEN2_100Rnd"
-		};
-		class OpticsInfo: OpticsInfoRifle
-		{
-			memoryPointCamera="eye";
-			discreteDistance[]={25,50,100,200,300};
-			discreteDistanceInitIndex=0;
-			modelOptics="-";
-			distanceZoomMin=25;
-			distanceZoomMax=300;
 		};
 	};
 	class Aug_Base;
