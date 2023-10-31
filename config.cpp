@@ -4,7 +4,23 @@ class CfgPatches
 	class HadalZoneCompatibility
 	{
 		requiredVersion = 0.1;
-		requiredAddons[] = {"DZ_Data","DZ_Weapons_Firearms","DZ_Pistols","DZ_Sounds_Weapons","DZ_Weapons_Magazines","DZ_Weapons_Ammunition","DZ_Weapons_Firearms_aug","DZ_Weapons_Firearms_M4","DZ_Weapons_Firearms_M16A2","DZ_Weapons_Firearms_FAL", "DZ_Weapons_Firearms_AKM", "TWM_Guns","ASC_Weapons_LVOAC","ASC_Weapons_HK416","Blackout_Weapons_Snipers"};
+		requiredAddons[] = {
+			"DZ_Data",
+			"DZ_Weapons_Firearms",
+			"DZ_Pistols",
+			"DZ_Sounds_Weapons",
+			"DZ_Weapons_Magazines",
+			"DZ_Weapons_Ammunition",
+			"DZ_Weapons_Firearms_aug",
+			"DZ_Weapons_Firearms_M4",
+			"DZ_Weapons_Firearms_M16A2",
+			"DZ_Weapons_Firearms_FAL", 
+			"DZ_Weapons_Firearms_AKM", 
+			"TWM_Guns",
+			"ASC_Weapons_LVOAC",
+			"ASC_Weapons_HK416",
+			"Blackout_Weapons_Snipers"
+		};
 		ammo[] = {};
 	};
 };
