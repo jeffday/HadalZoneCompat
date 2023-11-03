@@ -26,7 +26,9 @@ class CfgPatches
 			"SR47",
 			"TWM_M14",
 			"TWM_M1A",
+			"TWM_SV98",
 			"BO_L96",
+			"BO_SV98",
 			"ASC_Weapons_LVOAC",
 			"ASC_Weapons_HK416"
 		};
@@ -677,4 +679,30 @@ class cfgWeapons
 	{
 			weight=6800;
 	};
+
+	class CZ527_Base;
+	class TWM_SV98_Base: CZ527_Base
+	{
+		attachments[]+=
+		{
+			"weaponOpticsHunting"
+		};
+		magazines[]+=
+		{
+			"BO_Mag_SV98_10rnd"
+		};
+	}
+
+	class BoltActionRifle_ExternalMagazine_Base;
+	class BO_SV98_Base: BoltActionRifle_ExternalMagazine_Base
+	{
+		attachments[]+=
+		{
+			"weaponMuzzleAK"
+		};
+		magazines[]+=
+		{
+			"TWM_SV98_Mag_10Rnd"
+		};
+	}
 };
