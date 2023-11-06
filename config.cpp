@@ -639,6 +639,12 @@ class cfgWeapons
 	class Ruger1022_Base;
 	class TWM_M14_Base: Ruger1022_Base
 	{
+		attachments[]=
+		{
+			"weaponWrap",
+			"weaponMuzzle308"
+		};
+
 		magazines[]=
 		{
 			"Mag_FAL_20Rnd",
@@ -650,6 +656,14 @@ class cfgWeapons
 
 	class TWM_IA2H_Base: FAL_Base
 	{
+		attachments[]=
+		{
+			"weaponOptics",
+			"weaponMuzzle308",
+			"weaponFlashlight",
+			"weaponWrap"
+		};
+
 		magazines[]=
 		{
 			"Mag_FAL_20Rnd",
@@ -663,6 +677,15 @@ class cfgWeapons
 
 	class TWM_M1A_Base: FAL_Base
 	{
+		attachments[]=
+		{
+			"weaponWrap",
+			"weaponMuzzle308",
+			"weaponOptics",
+			"weaponFlashlight",
+			"weaponButtstockM4"
+		};
+
 		magazines[]=
 		{
 			"Mag_FAL_20Rnd",
@@ -705,4 +728,28 @@ class cfgWeapons
 			"TWM_SV98_Mag_10Rnd"
 		};
 	}
+
+	class TWM_FRF2_base: cz527_Base
+	{
+		attachments[]=
+		{
+			"weaponOpticsHunting",
+			"weaponOptics",
+			"weaponMuzzle308",
+			"weaponWrap"
+		};
+	}
+
+	class TWM_HK417_Base: M4A1_Base
+	{
+		attachments[]=
+		{
+			"weaponWrap",
+			"weaponOptics",
+			"weaponFlashlight",
+			"weaponButtstockM4",
+			"weaponMuzzle308"
+		};
+	}
+
 };
