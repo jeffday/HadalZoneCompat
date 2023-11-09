@@ -647,6 +647,8 @@ class cfgWeapons
 
 		magazines[]=
 		{
+			"Mag_M14_10Rnd",
+			"Mag_M14_20Rnd",
 			"Mag_FAL_20Rnd",
 			"BO_Mag_M14_10rnd",
 			"BO_Mag_M14_20rnd",
@@ -667,8 +669,6 @@ class cfgWeapons
 		magazines[]=
 		{
 			"Mag_FAL_20Rnd",
-			"BO_Mag_M14_10rnd",
-			"BO_Mag_M14_20rnd",
 			"BO_Mag_FNFAL_30rnd",
 			"BO_Mag_FNFAL_40rnd",
 			"TWM_Mag_308Drum"
@@ -688,12 +688,46 @@ class cfgWeapons
 
 		magazines[]=
 		{
+			"Mag_M14_10Rnd",
+			"Mag_M14_20Rnd",
 			"Mag_FAL_20Rnd",
 			"BO_Mag_M14_10rnd",
 			"BO_Mag_M14_20rnd",
 			"BO_Mag_FNFAL_30rnd",
 			"BO_Mag_FNFAL_40rnd",
 			"TWM_Mag_308Drum"
+		};
+	}
+
+	class M14_Base: Rifle_Base
+	{
+		attachments[]+=
+		{
+			"weaponMuzzle308",
+		};
+
+		magazines[]+=
+		{
+			"BO_Mag_M14_10rnd",
+			"BO_Mag_M14_20rnd"
+		};
+	}
+
+	class BO_M1A_Base: Rifle_Base
+	{
+		magazines[]+=
+		{
+			"Mag_M14_10Rnd",
+			"Mag_M14_20Rnd"
+		};
+	}
+
+	class BO_Mk14_Base: Rifle_Base
+	{
+		magazines[]+=
+		{
+			"Mag_M14_10Rnd",
+			"Mag_M14_20Rnd"
 		};
 	}
 
