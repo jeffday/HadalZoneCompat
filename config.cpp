@@ -17,6 +17,7 @@ class CfgPatches
 			"DZ_Weapons_Firearms_FAL", 
 			"DZ_Weapons_Firearms_AKM",
 			"DZ_Weapons_Firearms_Ruger1022",
+			"DZ_Weapons_Firearms_M14",
 			"AK105",
 			"G36K",
 			"HK416",
@@ -28,6 +29,8 @@ class CfgPatches
 			"TWM_M1A",
 			"TWM_SV98",
 			"BO_L96",
+			"BO_M1A",
+			"BO_Mk14",
 			"BO_SV98",
 			"ASC_Weapons_LVOAC",
 			"ASC_Weapons_HK416"
