@@ -702,7 +702,8 @@ class cfgWeapons
 		};
 	}
 
-	class M14_Base: Rifle_Base
+	class M14_Base;
+	class M14: M14_Base
 	{
 		attachments[]+=
 		{
