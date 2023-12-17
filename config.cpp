@@ -710,11 +710,11 @@ class cfgWeapons
 			"weaponMuzzle308",
 		};
 
-		magazines[]+=
-		{
-			"BO_Mag_M14_10rnd",
-			"BO_Mag_M14_20rnd"
-		};
+		// magazines[]+=
+		// {
+		// 	"BO_Mag_M14_10rnd",
+		// 	"BO_Mag_M14_20rnd"
+		// };
 	}
 
 	class BO_M1A_Base: Rifle_Base
