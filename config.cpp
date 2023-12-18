@@ -16,21 +16,14 @@ class CfgPatches
 			"DZ_Weapons_Firearms_M16A2",
 			"DZ_Weapons_Firearms_FAL", 
 			"DZ_Weapons_Firearms_AKM",
-			"DZ_Weapons_Firearms_Ruger1022",
-			"DZ_Weapons_Firearms_M14",
 			"AK105",
 			"G36K",
 			"HK416",
 			"IA2",
-			"IA2H",
 			"MK18", 
 			"SR47",
-			"TWM_M14",
-			"TWM_M1A",
 			"TWM_SV98",
 			"BO_L96",
-			"BO_M1A",
-			"BO_Mk14",
 			"BO_SV98",
 			"ASC_Weapons_LVOAC",
 			"ASC_Weapons_HK416"
@@ -638,102 +631,6 @@ class cfgWeapons
 			"BO_Mag_GEN2_100Rnd"
 		};
 	};
-
-	class Ruger1022_Base;
-	class TWM_M14_Base: Ruger1022_Base
-	{
-		attachments[]=
-		{
-			"weaponWrap",
-			"weaponMuzzle308"
-		};
-
-		magazines[]=
-		{
-			"Mag_M14_10Rnd",
-			"Mag_M14_20Rnd",
-			"Mag_FAL_20Rnd",
-			"BO_Mag_M14_10rnd",
-			"BO_Mag_M14_20rnd",
-			"TWM_Mag_308Drum"
-		};
-	}
-
-	class TWM_IA2H_Base: FAL_Base
-	{
-		attachments[]=
-		{
-			"weaponOptics",
-			"weaponMuzzle308",
-			"weaponFlashlight",
-			"weaponWrap"
-		};
-
-		magazines[]=
-		{
-			"Mag_FAL_20Rnd",
-			"BO_Mag_FNFAL_30rnd",
-			"BO_Mag_FNFAL_40rnd",
-			"TWM_Mag_308Drum"
-		};
-	}
-
-	class TWM_M1A_Base: FAL_Base
-	{
-		attachments[]=
-		{
-			"weaponWrap",
-			"weaponMuzzle308",
-			"weaponOptics",
-			"weaponFlashlight",
-			"weaponButtstockM4"
-		};
-
-		magazines[]=
-		{
-			"Mag_M14_10Rnd",
-			"Mag_M14_20Rnd",
-			"Mag_FAL_20Rnd",
-			"BO_Mag_M14_10rnd",
-			"BO_Mag_M14_20rnd",
-			"BO_Mag_FNFAL_30rnd",
-			"BO_Mag_FNFAL_40rnd",
-			"TWM_Mag_308Drum"
-		};
-	}
-
-	class M14_Base;
-	class M14: M14_Base
-	{
-		attachments[]+=
-		{
-			"weaponMuzzle308",
-		};
-
-		// magazines[]+=
-		// {
-		// 	"BO_Mag_M14_10rnd",
-		// 	"BO_Mag_M14_20rnd"
-		// };
-	}
-
-	class BO_M1A_Base: Rifle_Base
-	{
-		magazines[]+=
-		{
-			"Mag_M14_10Rnd",
-			"Mag_M14_20Rnd"
-		};
-	}
-
-	class BO_Mk14_Base: Rifle_Base
-	{
-		magazines[]+=
-		{
-			"Mag_M14_10Rnd",
-			"Mag_M14_20Rnd"
-		};
-	}
 
 	class BoltActionRifle_ExternalMagazine_Base;
 	class BO_L96_Base: BoltActionRifle_ExternalMagazine_Base
