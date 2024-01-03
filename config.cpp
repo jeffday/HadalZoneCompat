@@ -26,7 +26,14 @@ class CfgPatches
 			"BO_L96",
 			"BO_SV98",
 			"ASC_Weapons_LVOAC",
-			"ASC_Weapons_HK416"
+			"ASC_Weapons_HK416",
+			"DZ_Characters",
+			"DZ_Characters_Tops",
+			"FOG_Crye_G3_Shirt_ColorBase",
+			"FOG_Pants_Crye_G3_ColorBase",
+			"FOG_G99_Pants_ColorBase",
+			"FOG_UFP_Pants_ColorBase",
+			"FOG_UFJ_Shirt_ColorBase"
 		};
 		ammo[] = {};
 	};
@@ -687,4 +694,127 @@ class cfgWeapons
 		};
 	}
 
+};
+class CfgVehicles
+{
+	class FOG_Crye_G3_Shirt_ColorBase;
+	class FOG_Crye_G3_Shirt_MC: FOG_Crye_G3_Shirt_ColorBase
+	{
+		heatIsolation=0.1;
+	}
+
+	class FOG_Crye_G3_Shirt_MCA: FOG_Crye_G3_Shirt_ColorBase
+	{
+		heatIsolation=0.1;
+	}
+
+	class FOG_Crye_G3_Shirt_AOR1: FOG_Crye_G3_Shirt_ColorBase
+	{
+		heatIsolation=0.1;
+	}
+
+	class FOG_Crye_G3_Shirt_CB: FOG_Crye_G3_Shirt_ColorBase
+	{
+		heatIsolation=0.1;
+	}
+
+	class FOG_Crye_G3_Shirt_DCU: FOG_Crye_G3_Shirt_ColorBase
+	{
+		heatIsolation=0.1;
+	}
+
+	class FOG_Crye_G3_Shirt_6CD: FOG_Crye_G3_Shirt_ColorBase
+	{
+		heatIsolation=0.1;
+	}
+
+	class FOG_Crye_G3_Shirt_MC_FRACU: FOG_Crye_G3_Shirt_ColorBase
+	{
+		heatIsolation=0.1;
+	}
+
+	class FOG_Crye_G3_Shirt_MC_Patagonia: FOG_Crye_G3_Shirt_ColorBase
+	{
+		heatIsolation=0.1;
+	}
+
+	class FOG_Crye_G2_Shirt_MC: FOG_Crye_G3_Shirt_ColorBase
+	{
+		heatIsolation=0.1;
+	}
+
+	class FOG_Crye_G3_Shirt_KHK: FOG_Crye_G3_Shirt_ColorBase
+	{
+		heatIsolation=0.1;
+	}
+
+	class FOG_Pants_Crye_G3_ColorBase;
+
+	class FOG_Pants_Crye_G3_MC: FOG_Pants_Crye_G3_ColorBase
+	{
+		heatIsolation=0.1;
+	}
+
+	class FOG_Pants_Crye_G3_AOR1: FOG_Pants_Crye_G3_ColorBase
+	{
+		heatIsolation=0.1;
+	}
+	
+	class FOG_Pants_Crye_G3_CB: FOG_Pants_Crye_G3_ColorBase
+	{
+		heatIsolation=0.1;
+	}
+		
+	class FOG_Pants_Crye_G3_MCA: FOG_Pants_Crye_G3_ColorBase
+	{
+		heatIsolation=0.1;
+	}
+			
+	class FOG_Pants_Crye_G3_KHK: FOG_Pants_Crye_G3_ColorBase
+	{
+		heatIsolation=0.1;
+	}
+				
+	class FOG_Pants_Crye_G3_MC_FRACU: FOG_Pants_Crye_G3_ColorBase
+	{
+		heatIsolation=0.1;
+	}
+
+	class FOG_G99_Pants_ColorBase;
+	class FOG_G99_Pants_CB: FOG_G99_Pants_ColorBase
+	{
+		heatIsolation=0.1;
+	}
+
+	class FOG_G99_Pants_CB: FOG_G99_Pants_ColorBase
+	{
+		heatIsolation=0.1;
+	}
+
+	class FOG_UFP_Pants_ColorBase;
+	class FOG_UFP_Pants_6CD: FOG_UFP_Pants_ColorBase
+	{
+		heatIsolation=0.1;
+	}
+
+	class FOG_UFP_Pants_DCU: FOG_UFP_Pants_ColorBase
+	{
+		heatIsolation=0.1;
+	}
+
+	class FOG_UFP_Pants_MC: FOG_UFP_Pants_ColorBase
+	{
+		heatIsolation=0.1;
+	}
+	
+	class FOG_UFP_Pants_Tan: FOG_UFP_Pants_ColorBase
+	{
+		heatIsolation=0.1;
+	}
+		
+	class FOG_UFJ_Shirt_ColorBase;
+	class FOG_UFJ_Shirt_CB: FOG_UFJ_Shirt_ColorBase
+	{
+		heatIsolation=0.1;
+	}
 };
