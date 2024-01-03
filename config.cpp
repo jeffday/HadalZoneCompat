@@ -652,10 +652,6 @@ class cfgWeapons
 		{
 			"weaponOpticsHunting"
 		};
-		magazines[]+=
-		{
-			"BO_Mag_SV98_10rnd"
-		};
 	}
 
 	class BoltActionRifle_ExternalMagazine_Base;
@@ -664,10 +660,6 @@ class cfgWeapons
 		attachments[]+=
 		{
 			"weaponMuzzleAK"
-		};
-		magazines[]+=
-		{
-			"TWM_SV98_Mag_10Rnd"
 		};
 	}
 
