@@ -700,95 +700,95 @@ class CfgVehicles
 	class FOG_Crye_G3_Shirt_ColorBase;
 	class FOG_Crye_G3_Shirt_MC: FOG_Crye_G3_Shirt_ColorBase
 	{
-		heatIsolation=0.1;
+		heatIsolation=0.25;
 	}
 
 	class FOG_Crye_G3_Shirt_MCA: FOG_Crye_G3_Shirt_ColorBase
 	{
-		heatIsolation=0.1;
+		heatIsolation=0.25;
 	}
 
 	class FOG_Crye_G3_Shirt_AOR1: FOG_Crye_G3_Shirt_ColorBase
 	{
-		heatIsolation=0.1;
+		heatIsolation=0.25;
 	}
 
 	class FOG_Crye_G3_Shirt_CB: FOG_Crye_G3_Shirt_ColorBase
 	{
-		heatIsolation=0.1;
+		heatIsolation=0.25;
 	}
 
 	class FOG_Crye_G3_Shirt_DCU: FOG_Crye_G3_Shirt_ColorBase
 	{
-		heatIsolation=0.1;
+		heatIsolation=0.25;
 	}
 
 	class FOG_Crye_G3_Shirt_6CD: FOG_Crye_G3_Shirt_ColorBase
 	{
-		heatIsolation=0.1;
+		heatIsolation=0.25;
 	}
 
 	class FOG_Crye_G3_Shirt_MC_FRACU: FOG_Crye_G3_Shirt_ColorBase
 	{
-		heatIsolation=0.1;
+		heatIsolation=0.25;
 	}
 
 	class FOG_Crye_G3_Shirt_MC_Patagonia: FOG_Crye_G3_Shirt_ColorBase
 	{
-		heatIsolation=0.1;
+		heatIsolation=0.25;
 	}
 
 	class FOG_Crye_G2_Shirt_MC: FOG_Crye_G3_Shirt_ColorBase
 	{
-		heatIsolation=0.1;
+		heatIsolation=0.25;
 	}
 
 	class FOG_Crye_G3_Shirt_KHK: FOG_Crye_G3_Shirt_ColorBase
 	{
-		heatIsolation=0.1;
+		heatIsolation=0.25;
 	}
 
 	class FOG_Pants_Crye_G3_ColorBase;
 
 	class FOG_Pants_Crye_G3_MC: FOG_Pants_Crye_G3_ColorBase
 	{
-		heatIsolation=0.1;
+		heatIsolation=0.25;
 	}
 
 	class FOG_Pants_Crye_G3_AOR1: FOG_Pants_Crye_G3_ColorBase
 	{
-		heatIsolation=0.1;
+		heatIsolation=0.25;
 	}
 	
 	class FOG_Pants_Crye_G3_CB: FOG_Pants_Crye_G3_ColorBase
 	{
-		heatIsolation=0.1;
+		heatIsolation=0.25;
 	}
 		
 	class FOG_Pants_Crye_G3_MCA: FOG_Pants_Crye_G3_ColorBase
 	{
-		heatIsolation=0.1;
+		heatIsolation=0.25;
 	}
 			
 	class FOG_Pants_Crye_G3_KHK: FOG_Pants_Crye_G3_ColorBase
 	{
-		heatIsolation=0.1;
+		heatIsolation=0.25;
 	}
 				
 	class FOG_Pants_Crye_G3_MC_FRACU: FOG_Pants_Crye_G3_ColorBase
 	{
-		heatIsolation=0.1;
+		heatIsolation=0.25;
 	}
 
 	class FOG_G99_Pants_ColorBase;
 	class FOG_G99_Pants_CB: FOG_G99_Pants_ColorBase
 	{
-		heatIsolation=0.1;
+		heatIsolation=0.3;
 	}
 
 	class FOG_G99_Pants_CB: FOG_G99_Pants_ColorBase
 	{
-		heatIsolation=0.1;
+		heatIsolation=0.3;
 	}
 
 	class FOG_UFP_Pants_ColorBase;
@@ -816,5 +816,16 @@ class CfgVehicles
 	class FOG_UFJ_Shirt_CB: FOG_UFJ_Shirt_ColorBase
 	{
 		heatIsolation=0.1;
+	}
+
+	class Clothing;
+	class FOG_GunGloves_ColorBase: Clothing
+	{
+		heatIsolation=0.1;
+	}
+
+	class FOG_Tactical_Fingerless_Gloves_ColorBase: Clothing
+	{
+		heatIsolation=0.3;
 	}
 };
