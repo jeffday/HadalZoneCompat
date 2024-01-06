@@ -34,7 +34,9 @@ class CfgPatches
 			"FOG_Pants_Crye_G3_ColorBase",
 			"FOG_G99_Pants_ColorBase",
 			"FOG_UFP_Pants_ColorBase",
-			"FOG_UFJ_Shirt_ColorBase"
+			"FOG_UFJ_Shirt_ColorBase",
+			"Spur_CamelBag",
+			"Spur_Military_Bag"
 		};
 		ammo[] = {};
 	};
@@ -833,5 +835,27 @@ class CfgVehicles
 	class FOG_Tactical_Fingerless_Gloves_ColorBase: Clothing
 	{
 		heatIsolation=0.3;
+	}
+
+	class Spur_MilBag_ColorBase;
+	class Spur_MilBag_Tan: Spur_MilBag_ColorBase
+	{
+		heatIsolation=0.25;
+	}
+
+	class Spur_MilBag_MultiCamo: Spur_MilBag_ColorBase
+	{
+		heatIsolation=0.25;
+	}
+
+	class Spur_CamelBag_ColorBase;
+	class Spur_CamelBag_Tan: Spur_CamelBag_ColorBase
+	{
+		heatIsolation=0.35;
+	}
+
+	class Spur_CamelBag_MultiCamo: Spur_CamelBag_ColorBase
+	{
+		heatIsolation=0.35;
 	}
 };
