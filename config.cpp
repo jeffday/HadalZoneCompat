@@ -23,6 +23,7 @@ class CfgPatches
 			"MK18", 
 			"SR47",
 			"TWM_SV98",
+			"TWM_AN94",
 			"BO_L96",
 			"BO_SV98",
 			"ASC_Weapons_LVOAC",
@@ -292,6 +293,19 @@ class cfgWeapons
 			"Mag_AK74_45Rnd"
 		};
 	};
+
+	class TWM_AN94_Base: AKM_Base
+	{
+		magazines[]=
+		{
+			"BO_AK74_30rnd",
+			"Mag_AK74_30Rnd",
+			"Mag_AK74_30Rnd_Black",
+			"Mag_AK74_30Rnd_Green",
+			"Mag_AK74_45Rnd"
+		};
+	}
+
 	class TWM_HK416_Base: M4A1_Base
 	{
 		magazines[]=
