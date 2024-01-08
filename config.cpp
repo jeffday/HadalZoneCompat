@@ -30,6 +30,7 @@ class CfgPatches
 			"ASC_Weapons_HK416",
 			"DZ_Characters",
 			"DZ_Characters_Tops",
+			"DZ_Characters_Shoes",
 			"FOG_Crye_G3_Shirt_ColorBase",
 			"FOG_Pants_Crye_G3_ColorBase",
 			"FOG_G99_Pants_ColorBase",
@@ -857,5 +858,26 @@ class CfgVehicles
 	class Spur_CamelBag_MultiCamo: Spur_CamelBag_ColorBase
 	{
 		heatIsolation=0.35;
+	}
+
+	class HikingBootsLow_ColorBase;
+	class HikingBootsLow_Black: HikingBootsLow_ColorBase
+	{
+		heatIsolation=0.2;
+	}
+
+	class HikingBootsLow_Blue: HikingBootsLow_ColorBase
+	{
+		heatIsolation=0.2;
+	}
+
+	class HikingBootsLow_Beige: HikingBootsLow_ColorBase
+	{
+		heatIsolation=0.2;
+	}
+
+	class HikingBootsLow_Grey: HikingBootsLow_ColorBase
+	{
+		heatIsolation=0.2;
 	}
 };
