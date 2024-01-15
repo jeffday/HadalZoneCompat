@@ -22,22 +22,11 @@ class CfgPatches
 			"IA2",
 			"MK18", 
 			"SR47",
-			"TWM_SV98",
 			"TWM_AN94",
 			"BO_L96",
 			"BO_SV98",
 			"ASC_Weapons_LVOAC",
 			"ASC_Weapons_HK416",
-			"DZ_Characters",
-			"DZ_Characters_Tops",
-			"DZ_Characters_Shoes",
-			"FOG_Crye_G3_Shirt_ColorBase",
-			"FOG_Pants_Crye_G3_ColorBase",
-			"FOG_G99_Pants_ColorBase",
-			"FOG_UFP_Pants_ColorBase",
-			"FOG_UFJ_Shirt_ColorBase",
-			"Spur_CamelBag",
-			"Spur_Military_Bag"
 		};
 		ammo[] = {};
 	};
@@ -662,15 +651,6 @@ class cfgWeapons
 			weight=6800;
 	};
 
-	class CZ527_Base;
-	class TWM_SV98_Base: CZ527_Base
-	{
-		attachments[]+=
-		{
-			"weaponOpticsHunting"
-		};
-	}
-
 	class BoltActionRifle_ExternalMagazine_Base;
 	class BO_SV98_Base: BoltActionRifle_ExternalMagazine_Base
 	{
@@ -703,181 +683,4 @@ class cfgWeapons
 		};
 	}
 
-};
-class CfgVehicles
-{
-	class FOG_Crye_G3_Shirt_ColorBase;
-	class FOG_Crye_G3_Shirt_MC: FOG_Crye_G3_Shirt_ColorBase
-	{
-		heatIsolation=0.25;
-	}
-
-	class FOG_Crye_G3_Shirt_MCA: FOG_Crye_G3_Shirt_ColorBase
-	{
-		heatIsolation=0.25;
-	}
-
-	class FOG_Crye_G3_Shirt_AOR1: FOG_Crye_G3_Shirt_ColorBase
-	{
-		heatIsolation=0.25;
-	}
-
-	class FOG_Crye_G3_Shirt_CB: FOG_Crye_G3_Shirt_ColorBase
-	{
-		heatIsolation=0.25;
-	}
-
-	class FOG_Crye_G3_Shirt_DCU: FOG_Crye_G3_Shirt_ColorBase
-	{
-		heatIsolation=0.25;
-	}
-
-	class FOG_Crye_G3_Shirt_6CD: FOG_Crye_G3_Shirt_ColorBase
-	{
-		heatIsolation=0.25;
-	}
-
-	class FOG_Crye_G3_Shirt_MC_FRACU: FOG_Crye_G3_Shirt_ColorBase
-	{
-		heatIsolation=0.25;
-	}
-
-	class FOG_Crye_G3_Shirt_MC_Patagonia: FOG_Crye_G3_Shirt_ColorBase
-	{
-		heatIsolation=0.25;
-	}
-
-	class FOG_Crye_G2_Shirt_MC: FOG_Crye_G3_Shirt_ColorBase
-	{
-		heatIsolation=0.25;
-	}
-
-	class FOG_Crye_G3_Shirt_KHK: FOG_Crye_G3_Shirt_ColorBase
-	{
-		heatIsolation=0.25;
-	}
-
-	class FOG_Pants_Crye_G3_ColorBase;
-
-	class FOG_Pants_Crye_G3_MC: FOG_Pants_Crye_G3_ColorBase
-	{
-		heatIsolation=0.25;
-	}
-
-	class FOG_Pants_Crye_G3_AOR1: FOG_Pants_Crye_G3_ColorBase
-	{
-		heatIsolation=0.25;
-	}
-	
-	class FOG_Pants_Crye_G3_CB: FOG_Pants_Crye_G3_ColorBase
-	{
-		heatIsolation=0.25;
-	}
-		
-	class FOG_Pants_Crye_G3_MCA: FOG_Pants_Crye_G3_ColorBase
-	{
-		heatIsolation=0.25;
-	}
-			
-	class FOG_Pants_Crye_G3_KHK: FOG_Pants_Crye_G3_ColorBase
-	{
-		heatIsolation=0.25;
-	}
-				
-	class FOG_Pants_Crye_G3_MC_FRACU: FOG_Pants_Crye_G3_ColorBase
-	{
-		heatIsolation=0.25;
-	}
-
-	class FOG_G99_Pants_ColorBase;
-	class FOG_G99_Pants_CB: FOG_G99_Pants_ColorBase
-	{
-		heatIsolation=0.3;
-	}
-
-	class FOG_G99_Pants_CB: FOG_G99_Pants_ColorBase
-	{
-		heatIsolation=0.3;
-	}
-
-	class FOG_UFP_Pants_ColorBase;
-	class FOG_UFP_Pants_6CD: FOG_UFP_Pants_ColorBase
-	{
-		heatIsolation=0.1;
-	}
-
-	class FOG_UFP_Pants_DCU: FOG_UFP_Pants_ColorBase
-	{
-		heatIsolation=0.1;
-	}
-
-	class FOG_UFP_Pants_MC: FOG_UFP_Pants_ColorBase
-	{
-		heatIsolation=0.1;
-	}
-	
-	class FOG_UFP_Pants_Tan: FOG_UFP_Pants_ColorBase
-	{
-		heatIsolation=0.1;
-	}
-		
-	class FOG_UFJ_Shirt_ColorBase;
-	class FOG_UFJ_Shirt_CB: FOG_UFJ_Shirt_ColorBase
-	{
-		heatIsolation=0.1;
-	}
-
-	class Clothing;
-	class FOG_GunGloves_ColorBase: Clothing
-	{
-		heatIsolation=0.1;
-	}
-
-	class FOG_Tactical_Fingerless_Gloves_ColorBase: Clothing
-	{
-		heatIsolation=0.3;
-	}
-
-	class Spur_MilBag_ColorBase;
-	class Spur_MilBag_Tan: Spur_MilBag_ColorBase
-	{
-		heatIsolation=0.25;
-	}
-
-	class Spur_MilBag_MultiCamo: Spur_MilBag_ColorBase
-	{
-		heatIsolation=0.25;
-	}
-
-	class Spur_CamelBag_ColorBase;
-	class Spur_CamelBag_Tan: Spur_CamelBag_ColorBase
-	{
-		heatIsolation=0.35;
-	}
-
-	class Spur_CamelBag_MultiCamo: Spur_CamelBag_ColorBase
-	{
-		heatIsolation=0.35;
-	}
-
-	class HikingBootsLow_ColorBase;
-	class HikingBootsLow_Black: HikingBootsLow_ColorBase
-	{
-		heatIsolation=0.2;
-	}
-
-	class HikingBootsLow_Blue: HikingBootsLow_ColorBase
-	{
-		heatIsolation=0.2;
-	}
-
-	class HikingBootsLow_Beige: HikingBootsLow_ColorBase
-	{
-		heatIsolation=0.2;
-	}
-
-	class HikingBootsLow_Grey: HikingBootsLow_ColorBase
-	{
-		heatIsolation=0.2;
-	}
 };
