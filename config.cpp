@@ -660,17 +660,6 @@ class cfgWeapons
 		};
 	}
 
-	class TWM_FRF2_base: cz527_Base
-	{
-		attachments[]=
-		{
-			"weaponOpticsHunting",
-			"weaponOptics",
-			"weaponMuzzle308",
-			"weaponWrap"
-		};
-	}
-
 	class TWM_HK417_Base: M4A1_Base
 	{
 		attachments[]=
