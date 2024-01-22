@@ -660,16 +660,4 @@ class cfgWeapons
 		};
 	}
 
-	class TWM_HK417_Base: M4A1_Base
-	{
-		attachments[]=
-		{
-			"weaponWrap",
-			"weaponOptics",
-			"weaponFlashlight",
-			"weaponButtstockM4",
-			"weaponMuzzle308"
-		};
-	}
-
 };
