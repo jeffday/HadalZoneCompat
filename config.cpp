@@ -16,17 +16,16 @@ class CfgPatches
 			"DZ_Weapons_Firearms_M16A2",
 			"DZ_Weapons_Firearms_FAL", 
 			"DZ_Weapons_Firearms_AKM",
+			"DZ_Weapons_Firearms_VSS",
 			"AK105",
 			"G36K",
 			"HK416",
 			"IA2",
 			"MK18", 
 			"SR47",
-			"TWM_AN94",
 			"BO_L96",
-			"BO_SV98",
+			"BO_VSS",
 			"ASC_Weapons_LVOAC",
-			"ASC_Weapons_HK416",
 		};
 		ammo[] = {};
 	};
@@ -285,18 +284,6 @@ class cfgWeapons
 			"Mag_AK74_45Rnd"
 		};
 	};
-
-	class TWM_AN94_Base: AKM_Base
-	{
-		magazines[]=
-		{
-			"BO_AK74_30rnd",
-			"Mag_AK74_30Rnd",
-			"Mag_AK74_30Rnd_Black",
-			"Mag_AK74_30Rnd_Green",
-			"Mag_AK74_45Rnd"
-		};
-	}
 
 	class TWM_HK416_Base: M4A1_Base
 	{
@@ -597,53 +584,6 @@ class cfgWeapons
 			"BO_Mag_GEN2_100Rnd"
 		};
 	};
-	class ASC_HK416_Base: Rifle_Base
-	{
-		magazines[]=
-		{
-			"Mag_STANAG_30Rnd",
-			"Mag_STANAGCoupled_30Rnd",
-			"Mag_STANAG_60Rnd",
-			"Mag_CMAG_10Rnd",
-			"Mag_CMAG_20Rnd",
-			"Mag_CMAG_30Rnd",
-			"Mag_CMAG_40Rnd",
-			"Mag_CMAG_10Rnd_Green",
-			"Mag_CMAG_20Rnd_Green",
-			"Mag_CMAG_30Rnd_Green",
-			"Mag_CMAG_40Rnd_Green",
-			"Mag_CMAG_10Rnd_Black",
-			"Mag_CMAG_20Rnd_Black",
-			"Mag_CMAG_30Rnd_Black",
-			"Mag_CMAG_40Rnd_Black",
-			"Mag_ASC_Stanag_10Rnd",
-			"Mag_ASC_Stanag_10Rnd_Camo",
-			"Mag_ASC_Stanag_10Rnd_DigiTan",
-			"Mag_ASC_Stanag_10Rnd_Tan",
-			"Mag_ASC_Stanag_10Rnd_UCP",
-			"Mag_ASC_Stanag_20Rnd",
-			"Mag_ASC_Stanag_20Rnd_Camo",
-			"Mag_ASC_Stanag_20Rnd_DigiTan",
-			"Mag_ASC_Stanag_20Rnd_Tan",
-			"Mag_ASC_Stanag_20Rnd_UCP",
-			"Mag_ASC_Stanag_100Rnd",
-			"Mag_ASC_Stanag_100Rnd_Camo",
-			"Mag_ASC_Stanag_100Rnd_DigiTan",
-			"Mag_ASC_Stanag_100Rnd_Tan",
-			"Mag_ASC_Stanag_100Rnd_UCP",
-			"Mag_ASC_PMag_60Rnd",
-			"Mag_ASC_PMag_60Rnd_Camo",
-			"Mag_ASC_PMag_60Rnd_DigiTan",
-			"Mag_ASC_PMag_60Rnd_Tan",
-			"Mag_ASC_PMag_60Rnd_UCP",
-			"BO_Mag_PMAG_30Rnd",
-			"BO_Mag_PMAG_Tan_30Rnd",
-			"BO_Mag_PMAG_Green_30Rnd",
-			"BO_Mag_PMAGWindow_30Rnd", 
-			"BO_Mag_D60_60Rnd",
-			"BO_Mag_GEN2_100Rnd"
-		};
-	};
 
 	class BoltActionRifle_ExternalMagazine_Base;
 	class BO_L96_Base: BoltActionRifle_ExternalMagazine_Base
@@ -651,13 +591,20 @@ class cfgWeapons
 			weight=6800;
 	};
 
-	class BoltActionRifle_ExternalMagazine_Base;
-	class BO_SV98_Base: BoltActionRifle_ExternalMagazine_Base
+	class VSS_Base;
+	class Vikhr: VSS_Base
 	{
-		attachments[]+=
+		magazines[]+=
 		{
-			"weaponMuzzleAK"
+			"BO_Mag_ASVAL_30rnd"
 		};
 	}
 
+	class BO_ASVAL_Base: Rifle_Base
+	{
+		magazines[]+=
+		{
+			"Mag_Vikhr_30Rnd"
+		};
+	}
 };
