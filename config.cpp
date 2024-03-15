@@ -25,7 +25,12 @@ class CfgPatches
 			"SR47",
 			"BO_L96",
 			"BO_VSS",
+			"BO_AN94",
+			"BO_AKS74U",
+			"BO_AK74",
+			"BO_AEK971",
 			"ASC_Weapons_LVOAC",
+			"RZXC_AK12"
 		};
 		ammo[] = {};
 	};
@@ -276,6 +281,7 @@ class cfgWeapons
 		magazines[]=
 		{
 			"BO_AK74_30rnd",
+			"RZXC_AK12_Mag_30Rnd",
 			"TWM_Mag_AK105",
 			"TWM_Mag_AK105_60rnd",
 			"Mag_AK74_30Rnd",
@@ -284,6 +290,83 @@ class cfgWeapons
 			"Mag_AK74_45Rnd"
 		};
 	};
+
+	class RZXC_AK12_Base;
+	class RZXC_AK12: RZXC_AK12_Base
+	{
+		magazines[]=
+		{
+			"BO_AK74_30rnd",
+			"RZXC_AK12_Mag_30Rnd",
+			"TWM_Mag_AK105",
+			"TWM_Mag_AK105_60rnd",
+			"Mag_AK74_30Rnd",
+			"Mag_AK74_30Rnd_Black",
+			"Mag_AK74_30Rnd_Green",
+			"Mag_AK74_45Rnd"
+		};
+	};
+
+	class BO_AEK971_Base: Rifle_Base
+	{
+		magazines[]=
+		{
+			"BO_AK74_30rnd",
+			"RZXC_AK12_Mag_30Rnd",
+			"TWM_Mag_AK105",
+			"TWM_Mag_AK105_60rnd",
+			"Mag_AK74_30Rnd",
+			"Mag_AK74_30Rnd_Black",
+			"Mag_AK74_30Rnd_Green",
+			"Mag_AK74_45Rnd"
+		};
+	};
+
+	class BO_AK74_Base: Rifle_Base
+	{
+		magazines[]=
+		{
+			"BO_AK74_30rnd",
+			"RZXC_AK12_Mag_30Rnd",
+			"TWM_Mag_AK105",
+			"TWM_Mag_AK105_60rnd",
+			"Mag_AK74_30Rnd",
+			"Mag_AK74_30Rnd_Black",
+			"Mag_AK74_30Rnd_Green",
+			"Mag_AK74_45Rnd"
+		};
+	};
+
+	class BO_AKS74U_Base;
+	class BO_AKS74U: BO_AKS74U_Base
+	{
+		magazines[]=
+		{
+			"BO_AK74_30rnd",
+			"RZXC_AK12_Mag_30Rnd",
+			"TWM_Mag_AK105",
+			"TWM_Mag_AK105_60rnd",
+			"Mag_AK74_30Rnd",
+			"Mag_AK74_30Rnd_Black",
+			"Mag_AK74_30Rnd_Green",
+			"Mag_AK74_45Rnd"
+		};
+	};
+
+	class BO_AN94_Base: Rifle_Base
+	{
+		magazines[]=
+		{
+			"BO_AK74_30rnd",
+			"RZXC_AK12_Mag_30Rnd",
+			"TWM_Mag_AK105",
+			"TWM_Mag_AK105_60rnd",
+			"Mag_AK74_30Rnd",
+			"Mag_AK74_30Rnd_Black",
+			"Mag_AK74_30Rnd_Green",
+			"Mag_AK74_45Rnd"
+		};
+	}
 
 	class TWM_HK416_Base: M4A1_Base
 	{
@@ -591,20 +674,25 @@ class cfgWeapons
 			weight=6800;
 	};
 
-	class VSS_Base;
-	class Vikhr: VSS_Base
+	class VSS_Base: Rifle_Base
 	{
-		magazines[]+=
+		magazines[]=
 		{
+			"Mag_VSS_10Rnd",
+			"Mag_VAL_20Rnd",
+			"Mag_Vikhr_30Rnd",
 			"BO_Mag_ASVAL_30rnd"
 		};
-	}
+	};
 
 	class BO_ASVAL_Base: Rifle_Base
 	{
-		magazines[]+=
+		magazines[]=
 		{
-			"Mag_Vikhr_30Rnd"
+			"Mag_VSS_10Rnd",
+			"Mag_VAL_20Rnd",
+			"Mag_Vikhr_30Rnd",
+			"BO_Mag_ASVAL_30rnd"
 		};
-	}
+	};
 };
