@@ -30,6 +30,7 @@ class CfgPatches
 			"BO_AK74",
 			"BO_AEK971",
 			"ASC_Weapons_LVOAC",
+			"ASC_Weapons_AMB17",
 			"RZXC_AK12"
 		};
 		ammo[] = {};
@@ -674,23 +675,43 @@ class cfgWeapons
 			weight=6800;
 	};
 
-	class VSS_Base: Rifle_Base
+	class VSS_Base;
+	class Vikhr: VSS_Base
 	{
 		magazines[]=
 		{
 			"Mag_VSS_10Rnd",
 			"Mag_VAL_20Rnd",
+			"Mag_ASC_AMB17_25Rnd",
+			"Mag_ASC_AMB17_25Rnd_Black",
 			"Mag_Vikhr_30Rnd",
 			"BO_Mag_ASVAL_30rnd"
 		};
 	};
 
-	class BO_ASVAL_Base: Rifle_Base
+	class BO_ASVAL_Base;
+	class BO_ASVAL: BO_ASVAL_Base
 	{
 		magazines[]=
 		{
 			"Mag_VSS_10Rnd",
 			"Mag_VAL_20Rnd",
+			"Mag_ASC_AMB17_25Rnd",
+			"Mag_ASC_AMB17_25Rnd_Black",
+			"Mag_Vikhr_30Rnd",
+			"BO_Mag_ASVAL_30rnd"
+		};
+	};
+
+	class ASC_AMB17_Base;
+	class ASC_AMB17: ASC_AMB17_Base
+	{
+		magazines[]=
+		{
+			"Mag_VSS_10Rnd",
+			"Mag_VAL_20Rnd",
+			"Mag_ASC_AMB17_25Rnd",
+			"Mag_ASC_AMB17_25Rnd_Black",
 			"Mag_Vikhr_30Rnd",
 			"BO_Mag_ASVAL_30rnd"
 		};
