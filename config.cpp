@@ -17,21 +17,14 @@ class CfgPatches
 			"DZ_Weapons_Firearms_FAL", 
 			"DZ_Weapons_Firearms_AKM",
 			"DZ_Weapons_Firearms_VSS",
-			"AK105",
 			"G36K",
 			"HK416",
 			"IA2",
 			"MK18", 
 			"SR47",
 			"BO_L96",
-			"BO_VSS",
-			"BO_AN94",
-			"BO_AKS74U",
-			"BO_AK74",
-			"BO_AEK971",
 			"ASC_Weapons_LVOAC",
-			"ASC_Weapons_AMB17",
-			"RZXC_AK12"
+			"ASC_Weapons_AMB17"
 		};
 		ammo[] = {};
 	};
@@ -276,98 +269,6 @@ class cfgWeapons
 			"BO_Mag_GEN2_100Rnd"
 		};
 	};
-	class AKM_Base;
-	class TWM_AK105_Base: AKM_Base
-	{
-		magazines[]=
-		{
-			"BO_AK74_30rnd",
-			"RZXC_AK12_Mag_30Rnd",
-			"TWM_Mag_AK105",
-			"TWM_Mag_AK105_60rnd",
-			"Mag_AK74_30Rnd",
-			"Mag_AK74_30Rnd_Black",
-			"Mag_AK74_30Rnd_Green",
-			"Mag_AK74_45Rnd"
-		};
-	};
-
-	class RZXC_AK12_Base;
-	class RZXC_AK12: RZXC_AK12_Base
-	{
-		magazines[]=
-		{
-			"BO_AK74_30rnd",
-			"RZXC_AK12_Mag_30Rnd",
-			"TWM_Mag_AK105",
-			"TWM_Mag_AK105_60rnd",
-			"Mag_AK74_30Rnd",
-			"Mag_AK74_30Rnd_Black",
-			"Mag_AK74_30Rnd_Green",
-			"Mag_AK74_45Rnd"
-		};
-	};
-
-	class BO_AEK971_Base: Rifle_Base
-	{
-		magazines[]=
-		{
-			"BO_AK74_30rnd",
-			"RZXC_AK12_Mag_30Rnd",
-			"TWM_Mag_AK105",
-			"TWM_Mag_AK105_60rnd",
-			"Mag_AK74_30Rnd",
-			"Mag_AK74_30Rnd_Black",
-			"Mag_AK74_30Rnd_Green",
-			"Mag_AK74_45Rnd"
-		};
-	};
-
-	class BO_AK74_Base: Rifle_Base
-	{
-		magazines[]=
-		{
-			"BO_AK74_30rnd",
-			"RZXC_AK12_Mag_30Rnd",
-			"TWM_Mag_AK105",
-			"TWM_Mag_AK105_60rnd",
-			"Mag_AK74_30Rnd",
-			"Mag_AK74_30Rnd_Black",
-			"Mag_AK74_30Rnd_Green",
-			"Mag_AK74_45Rnd"
-		};
-	};
-
-	class BO_AKS74U_Base;
-	class BO_AKS74U: BO_AKS74U_Base
-	{
-		magazines[]=
-		{
-			"BO_AK74_30rnd",
-			"RZXC_AK12_Mag_30Rnd",
-			"TWM_Mag_AK105",
-			"TWM_Mag_AK105_60rnd",
-			"Mag_AK74_30Rnd",
-			"Mag_AK74_30Rnd_Black",
-			"Mag_AK74_30Rnd_Green",
-			"Mag_AK74_45Rnd"
-		};
-	};
-
-	class BO_AN94_Base: Rifle_Base
-	{
-		magazines[]=
-		{
-			"BO_AK74_30rnd",
-			"RZXC_AK12_Mag_30Rnd",
-			"TWM_Mag_AK105",
-			"TWM_Mag_AK105_60rnd",
-			"Mag_AK74_30Rnd",
-			"Mag_AK74_30Rnd_Black",
-			"Mag_AK74_30Rnd_Green",
-			"Mag_AK74_45Rnd"
-		};
-	}
 
 	class TWM_HK416_Base: M4A1_Base
 	{
@@ -679,25 +580,9 @@ class cfgWeapons
 	{
 		magazines[]+=
 		{
-			"Mag_ASC_AMB17_25Rnd",
-			"Mag_ASC_AMB17_25Rnd_Black",
 			"BO_Mag_ASVAL_30rnd"
 		};
 	};
-
-	// class VSS_Base;
-	// class Vikhr: VSS_Base
-	// {
-	// 	magazines[]=
-	// 	{
-	// 		"Mag_VSS_10Rnd",
-	// 		"Mag_VAL_20Rnd",
-	// 		"Mag_ASC_AMB17_25Rnd",
-	// 		"Mag_ASC_AMB17_25Rnd_Black",
-	// 		"Mag_Vikhr_30Rnd",
-	// 		"BO_Mag_ASVAL_30rnd"
-	// 	};
-	// };
 
 	class BO_ASVAL_Base;
 	class BO_ASVAL: BO_ASVAL_Base
@@ -713,17 +598,4 @@ class cfgWeapons
 		};
 	};
 
-	// class ASC_AMB17_Base;
-	// class ASC_AMB17: ASC_AMB17_Base
-	// {
-	// 	magazines[]=
-	// 	{
-	// 		"Mag_VSS_10Rnd",
-	// 		"Mag_VAL_20Rnd",
-	// 		"Mag_ASC_AMB17_25Rnd",
-	// 		"Mag_ASC_AMB17_25Rnd_Black",
-	// 		"Mag_Vikhr_30Rnd",
-	// 		"BO_Mag_ASVAL_30rnd"
-	// 	};
-	// };
 };
